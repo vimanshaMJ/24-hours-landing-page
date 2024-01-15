@@ -14,10 +14,17 @@
   z-index: -1;
 }
 .col1 {
-  padding: 2rem 0;
+  margin-top: 12%;
   text-align: left;
 }
 .heading {
   font-size: 4rem;
   text-align: left;
+}
+.paragraph1 {
+  padding: 5% 0;
+}
+
+.secondSection {
+  height: 500px;
 }
