@@ -1,4 +1,23 @@
 .firstSection {
-  height: 100px;
-  background-color: blue;
+  color: white;
+}
+.firstSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/image-1.jpeg");
+  background-size: cover;
+  filter: brightness(0.3);
+  z-index: -1;
+}
+.col1 {
+  padding: 2rem 0;
+  text-align: left;
+}
+.heading {
+  font-size: 4rem;
+  text-align: left;
 }
