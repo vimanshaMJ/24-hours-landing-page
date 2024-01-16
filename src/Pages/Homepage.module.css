@@ -47,3 +47,11 @@
   line-height: normal;
   font-weight: 400;
 }
+
+.thirdSection {
+  height: 500px;
+  background-color: rgb(234, 231, 231);
+}
+.leftRow {
+  text-align: left;
+}

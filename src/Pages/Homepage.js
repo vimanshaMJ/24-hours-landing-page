@@ -4,6 +4,7 @@ import PrimaryButton from "../Components/PrimaryButton";
 import icon1 from "../Images/icon-1.png";
 import icon2 from "../Images/icon-2.png";
 import icon3 from "../Images/icon-3.png";
+import img2 from "../Images/image-2.png";
 
 export default function Homepage({ ...props }) {
   return (
@@ -20,7 +21,7 @@ export default function Homepage({ ...props }) {
                 Ducimus obcaecati temporibus voluptatem unde sunt aliquid esse
                 explicabo officiis praesentium aut?
               </p>
-              <PrimaryButton />
+              <PrimaryButton buttonText={"Press Enter"} />
             </div>
           </div>
         </div>
@@ -70,10 +71,31 @@ export default function Homepage({ ...props }) {
           </div>
         </div>
       </div>
-      <div
-        className={`container-fluid ${classes.thirdSection}`}
-        {...props}
-      ></div>
+      <div className={`container-fluid ${classes.thirdSection}`} {...props}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <img src={img2} alt="img2" className={classes.img2} />
+            </div>
+            <div className={`col-md-6 ${classes.leftRow}`}>
+              <h1>Designed for Startups & Brands.</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Cupiditate id voluptate dignissimos adipisci. Neque nisi dolor
+                aut eos quae incidunt, perferendis provident mollitia, earum
+                deserunt suscipit quidem blanditiis veritatis laboriosam!
+              </p>
+              <p>
+                ❖ Lorem ipsum, dolor sit amet consectetur adipisicing.
+                <br />
+                ❖ Lorem ipsum dolor sit amet.
+                <br />❖ Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <PrimaryButton buttonText={"Lorem, ipsum."} />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
