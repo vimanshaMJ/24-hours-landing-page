@@ -26,5 +26,8 @@
 }
 
 .secondSection {
+  margin: 10% 0;
+  padding: 2% 0;
   height: 500px;
+  background-color: white;
 }
