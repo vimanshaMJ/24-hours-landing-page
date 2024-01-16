@@ -49,9 +49,30 @@
 }
 
 .thirdSection {
-  height: 500px;
+  padding: 6% 0;
   background-color: rgb(234, 231, 231);
 }
-.leftRow {
+.img2 {
+  height: 350px;
+  width: 100%;
+}
+.lastRow {
+  padding: 0 5%;
+}
+.rightCol {
+  align-self: center;
+}
+.leftCol {
   text-align: left;
+  align-self: center;
+  padding: 0 2%;
+}
+.colTitle {
+  font-weight: bold;
+}
+.colPara {
+  padding: 2% 0;
+}
+.lastBtn {
+  margin-top: 2%;
 }

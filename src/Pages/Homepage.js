@@ -73,17 +73,19 @@ export default function Homepage({ ...props }) {
       </div>
       <div className={`container-fluid ${classes.thirdSection}`} {...props}>
         <div className="container">
-          <div className="row">
-            <div className="col-md-6">
+          <div className={`row ${classes.lastRow}`}>
+            <div className={`col-md-6 ${classes.rightCol}`}>
               <img src={img2} alt="img2" className={classes.img2} />
             </div>
-            <div className={`col-md-6 ${classes.leftRow}`}>
-              <h1>Designed for Startups & Brands.</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Cupiditate id voluptate dignissimos adipisci. Neque nisi dolor
-                aut eos quae incidunt, perferendis provident mollitia, earum
-                deserunt suscipit quidem blanditiis veritatis laboriosam!
+            <div className={`col-md-6 ${classes.leftCol}`}>
+              <h1 className={classes.colTitle}>
+                Designed for Startups & Brands.
+              </h1>
+              <p className={classes.colPara}>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+                eveniet saepe, ad earum deserunt neque asperiores nostrum
+                dolorum exercitationem a, doloribus quidem cupiditate et
+                placeat!
               </p>
               <p>
                 ❖ Lorem ipsum, dolor sit amet consectetur adipisicing.
@@ -91,7 +93,10 @@ export default function Homepage({ ...props }) {
                 ❖ Lorem ipsum dolor sit amet.
                 <br />❖ Lorem ipsum dolor sit amet consectetur.
               </p>
-              <PrimaryButton buttonText={"Lorem, ipsum."} />
+              <PrimaryButton
+                className={classes.lastBtn}
+                buttonText={"Lorem, ipsum."}
+              />
             </div>
           </div>
         </div>
