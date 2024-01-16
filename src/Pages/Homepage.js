@@ -101,6 +101,36 @@ export default function Homepage({ ...props }) {
           </div>
         </div>
       </div>
+      <div className={`container-fluid ${classes.fourthSection}`} {...props}>
+        <div className="container">
+          <div className={`row ${classes.lastRow}`}>
+            <div className={`col-md-6 ${classes.leftCol}`}>
+              <h1 className={classes.colTitle}>
+                Designed for Startups & Brands.
+              </h1>
+              <p className={classes.colPara}>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+                eveniet saepe, ad earum deserunt neque asperiores nostrum
+                dolorum exercitationem a, doloribus quidem cupiditate et
+                placeat!
+              </p>
+              <p>
+                ❖ Lorem ipsum, dolor sit amet consectetur adipisicing.
+                <br />
+                ❖ Lorem ipsum dolor sit amet.
+                <br />❖ Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <PrimaryButton
+                className={classes.lastBtn}
+                buttonText={"Lorem, ipsum."}
+              />
+            </div>
+            <div className={`col-md-6 ${classes.rightCol}`}>
+              <img src={img2} alt="img2" className={classes.img2} />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
