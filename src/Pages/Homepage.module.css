@@ -26,8 +26,24 @@
 }
 
 .secondSection {
-  margin: 10% 0;
-  padding: 2% 0;
-  height: 500px;
+  margin-top: 5%;
+  padding: 5% 0;
   background-color: white;
+}
+.cardRow {
+  margin: 5% 0 2% 0;
+  padding: 0 5%;
+}
+.icon {
+  width: 60px;
+  margin: 5% 0;
+  padding-bottom: 2%;
+}
+.cardTitle {
+  font-weight: bold;
+}
+.cardPara {
+  padding: 2% 0;
+  line-height: normal;
+  font-weight: 400;
 }

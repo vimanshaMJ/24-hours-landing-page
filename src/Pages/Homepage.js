@@ -1,6 +1,9 @@
 import React from "react";
 import classes from "./Homepage.module.css";
 import PrimaryButton from "../Components/PrimaryButton";
+import icon1 from "../Images/icon-1.png";
+import icon2 from "../Images/icon-2.png";
+import icon3 from "../Images/icon-3.png";
 
 export default function Homepage({ ...props }) {
   return (
@@ -25,10 +28,10 @@ export default function Homepage({ ...props }) {
       <div className={`container-fluid ${classes.secondSection}`} {...props}>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-10" style={{ border: "solid" }}>
+            <div className="col-10">
               <h1>Density isn't A.I, Its the result of human intelligence.</h1>
             </div>
-            <div className="col-8" style={{ border: "solid" }}>
+            <div className="col-8">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
                 quam sint animi cum sed ullam libero consectetur! Voluptatibus,
@@ -36,8 +39,41 @@ export default function Homepage({ ...props }) {
               </p>
             </div>
           </div>
+          <div className={`row justify-content-center ${classes.cardRow}`}>
+            <div className="col-4">
+              <img src={icon1} alt="icon1" className={classes.icon} />
+              <h4 className={classes.cardTitle}>Highly Responsive</h4>
+              <p className={classes.cardPara}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                explicabo laborum excepturi, ducimus nam dignissimos fugit
+                accusantium cupiditate at reiciendis.
+              </p>
+            </div>
+            <div className="col-4">
+              <img src={icon2} alt="icon2" className={classes.icon} />
+              <h4 className={classes.cardTitle}>Built-in Security</h4>
+              <p className={classes.cardPara}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                explicabo laborum excepturi, ducimus nam dignissimos fugit
+                accusantium cupiditate at reiciendis.
+              </p>
+            </div>
+            <div className="col-4">
+              <img src={icon3} alt="icon3" className={classes.icon} />
+              <h4 className={classes.cardTitle}>Safety Locked</h4>
+              <p className={classes.cardPara}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                explicabo laborum excepturi, ducimus nam dignissimos fugit
+                accusantium cupiditate at reiciendis.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <div
+        className={`container-fluid ${classes.thirdSection}`}
+        {...props}
+      ></div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 .actionBtn {
-  background-color: rgb(83, 47, 244);
+  background-color: #264ceb;
   width: 25%;
 }
 .actionBtn:hover {
-  background-color: rgb(83, 47, 244);
-  opacity: 0.8;
+  background-color: #264ceb;
+  opacity: 0.9;
 }
