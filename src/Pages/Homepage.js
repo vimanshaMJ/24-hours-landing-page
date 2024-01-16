@@ -43,7 +43,7 @@ export default function Homepage({ ...props }) {
             </div>
           </div>
           <div className={`row justify-content-center ${classes.cardRow}`}>
-            <div className="col-4">
+            <div className="col-md-4 col-sm-6">
               <img src={icon1} alt="icon1" className={classes.icon} />
               <h4 className={classes.cardTitle}>Highly Responsive</h4>
               <p className={classes.cardPara}>
@@ -52,7 +52,7 @@ export default function Homepage({ ...props }) {
                 accusantium cupiditate at reiciendis.
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 col-sm-6">
               <img src={icon2} alt="icon2" className={classes.icon} />
               <h4 className={classes.cardTitle}>Built-in Security</h4>
               <p className={classes.cardPara}>
@@ -61,7 +61,7 @@ export default function Homepage({ ...props }) {
                 accusantium cupiditate at reiciendis.
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 col-sm-6">
               <img src={icon3} alt="icon3" className={classes.icon} />
               <h4 className={classes.cardTitle}>Safety Locked</h4>
               <p className={classes.cardPara}>
@@ -76,10 +76,10 @@ export default function Homepage({ ...props }) {
       <div className={`container-fluid ${classes.thirdSection}`} {...props}>
         <div className="container">
           <div className={`row ${classes.lastRow}`}>
-            <div className={`col-md-6 ${classes.rightCol}`}>
+            <div className={`col-md-6 ${classes.leftCol1}`}>
               <img src={img2} alt="img2" className={classes.img2} />
             </div>
-            <div className={`col-md-6 ${classes.leftCol}`}>
+            <div className={`col-md-6 ${classes.rightCol1}`}>
               <h1 className={classes.colTitle}>
                 Designed for Startups & brands.
               </h1>
@@ -106,7 +106,7 @@ export default function Homepage({ ...props }) {
       <div className={`container-fluid ${classes.fourthSection}`} {...props}>
         <div className="container">
           <div className={`row ${classes.lastRow}`}>
-            <div className={`col-md-6 ${classes.leftCol}`}>
+            <div className={`col-md-6 ${classes.leftCol2}`}>
               <h1 className={classes.colTitle}>
                 Designed for Startups & brands.
               </h1>
@@ -127,7 +127,7 @@ export default function Homepage({ ...props }) {
                 buttonText={"Lorem, ipsum."}
               />
             </div>
-            <div className={`col-md-6 ${classes.rightCol}`}>
+            <div className={`col-md-6 ${classes.rightCol2}`}>
               <img src={img2} alt="img2" className={classes.img2} />
             </div>
           </div>
