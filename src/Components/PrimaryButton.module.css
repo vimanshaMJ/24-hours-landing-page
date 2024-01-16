@@ -1,0 +1,11 @@
+.actionBtn {
+  background-color: #264ceb;
+  width: 160px;
+  height: 40px;
+  border-radius: 0;
+  font-size: large;
+}
+.actionBtn:hover {
+  background-color: #264ceb;
+  opacity: 0.9;
+}
