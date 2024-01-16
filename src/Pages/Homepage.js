@@ -30,7 +30,9 @@ export default function Homepage({ ...props }) {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-10">
-              <h1>Density isn't A.I, Its the result of human intelligence.</h1>
+              <h1 className={classes.secondHeading}>
+                Density isn't A.I, Its the result of human intelligence.
+              </h1>
             </div>
             <div className="col-8">
               <p>
@@ -79,7 +81,7 @@ export default function Homepage({ ...props }) {
             </div>
             <div className={`col-md-6 ${classes.leftCol}`}>
               <h1 className={classes.colTitle}>
-                Designed for Startups & Brands.
+                Designed for Startups & brands.
               </h1>
               <p className={classes.colPara}>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
@@ -106,7 +108,7 @@ export default function Homepage({ ...props }) {
           <div className={`row ${classes.lastRow}`}>
             <div className={`col-md-6 ${classes.leftCol}`}>
               <h1 className={classes.colTitle}>
-                Designed for Startups & Brands.
+                Designed for Startups & brands.
               </h1>
               <p className={classes.colPara}>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed

@@ -19,7 +19,10 @@
 }
 .heading {
   font-size: 4rem;
+  font-family: "Poppins", sans-serif;
   text-align: left;
+  line-height: 1.2;
+  font-weight: 600;
 }
 .paragraph1 {
   padding: 5% 0;
@@ -29,6 +32,9 @@
   margin-top: 5%;
   padding: 5% 0;
   background-color: white;
+}
+.secondHeading {
+  font-weight: bold;
 }
 .cardRow {
   margin: 5% 0 2% 0;
@@ -50,7 +56,7 @@
 
 .thirdSection {
   padding: 6% 0;
-  background-color: rgb(234, 231, 231);
+  background-color: rgb(244, 244, 244);
 }
 .img2 {
   height: 350px;
@@ -79,5 +85,5 @@
 
 .fourthSection {
   padding: 6% 0;
-  background-color: rgb(234, 231, 231);
+  background-color: rgb(244, 244, 244);
 }
